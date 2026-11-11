@@ -1,0 +1,37 @@
+# 媒体与二进制
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.exe
+*.dll
+*.zip
+
+# 展示片段
+!demo/review_cut_demo.mp4
+
+# 接口配置、环境文件、请求与输出
+*.json
+*.jsonl
+*.config.json
+.env
+.env.*
+**/生成请求/
+**/候选图/
+**/输出/
+**/renders/
+
+# 本地依赖与缓存
+**/__pycache__/
+*.pyc
+**/node_modules/
+
