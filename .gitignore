@@ -17,7 +17,7 @@
 *.zip
 
 # 展示片段
-!demo/review_cut_demo.mp4
+!demo/*.mp4
 
 # 接口配置、环境文件、请求与输出
 *.json
