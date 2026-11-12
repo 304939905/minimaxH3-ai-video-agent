@@ -35,3 +35,10 @@
 # 官方手册通过 GitHub Release 分发，不进入 Git
 docs/H3/manual/*.docx
 
+# Skill 包内的模板、图标与评测数据
+!skills/**/*.json
+!skills/**/*.webp
+!skills/**/*.jpg
+!skills/**/*.jpeg
+!skills/**/*.png
+

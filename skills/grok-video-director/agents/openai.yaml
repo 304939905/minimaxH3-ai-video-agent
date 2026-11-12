@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok导演"
+  short_description: "为 Grok Imagine 编写中英双语视频提示词"
+  default_prompt: "Use $grok-video-director to turn my idea or source image into a production-ready Grok Imagine video prompt."
