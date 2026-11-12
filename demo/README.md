@@ -4,8 +4,9 @@
 
 ## 无剪辑直接合成版
 
-- 下载：[MiniMax-H3-demo-direct-synthesis.mp4](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/demo-videos/MiniMax-H3-demo-direct-synthesis.mp4)
+- 下载：[MiniMax-H3-demo-direct-synthesis-1080p-preview.mp4](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/demo-videos/MiniMax-H3-demo-direct-synthesis-1080p-preview.mp4)
 - 2 分 25 秒，1920×1080、24fps、H.264/AAC
+- 58.1 MB 压缩预览版；原始 164.5 MB 文件保留在本地生产记录中
 - 按分镜顺序直接合成，未做人工精剪
 - 用于展示合成后的镜头组织、连续性和技术状态
 
