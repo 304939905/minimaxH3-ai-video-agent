@@ -6,12 +6,20 @@
 
 ## 使用手册
 
-- 文件：`manual/MiniMax-H3-user-manual.docx`
+- 入口：`manual/README.md`
+- 下载：[MiniMax-H3-user-manual.docx](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/h3-official-reference/MiniMax-H3-user-manual.docx)
 - 大小：419 MB
-- Git LFS：是
+- 分发方式：GitHub Release，不进入 Git LFS 或仓库历史
 - SHA-256：`7B34D58BE939E264B57BF2D9419C4D6E9B5257D1CE07780E614645321B6E4E01`
 
 这是本地学习/研究存档。手册版权归原发布方；公开分发前请自行确认授权。
+
+## 示例视频
+
+- 清单：`../../reference/MiniMax-H3-official/samples/MANIFEST.md`
+- 打包下载：[MiniMax-H3-official-samples.zip](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/h3-official-reference/MiniMax-H3-official-samples.zip)
+- 内容：79 个官方示例视频，原始总大小 712.6 MB，压缩包 750.9 MB
+- 分发方式：GitHub Release，不进入 Git LFS 或仓库历史
 
 ## 资料库
 

@@ -35,3 +35,6 @@
 *.pyc
 **/node_modules/
 
+# 官方手册通过 GitHub Release 分发，不进入 Git
+docs/H3/manual/*.docx
+

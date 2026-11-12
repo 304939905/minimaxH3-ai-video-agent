@@ -109,13 +109,14 @@ cd minimaxH3-ai-video-agent
 
 > **官方使用手册原文**：[MiniMax H3 官方使用手册（飞书原文）](https://vrfi1sk8a0.feishu.cn/wiki/FIWjwgL33ipnkekzk30crmKUnIh)
 
-- **官方使用手册**：`docs/H3/manual/MiniMax-H3-user-manual.docx`，419 MB，Git LFS 存储。SHA-256：`7B34D58BE939E264B57BF2D9419C4D6E9B5257D1CE07780E614645321B6E4E01`。
+- **官方使用手册**：[下载 docx](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/h3-official-reference/MiniMax-H3-user-manual.docx)，419 MB。SHA-256：`7B34D58BE939E264B57BF2D9419C4D6E9B5257D1CE07780E614645321B6E4E01`。
 - **H3 资料库**：`docs/H3/library/`，20 个文本文件，包含模型定位、官方资料核验、提示词框架、模式选择、案例库和验证日志。
 - **官方能力卡**：`docs/H3/research/2026-08-06_minimax-h3_official-capability-card.md`。
+- **官方示例视频**：[下载打包 zip](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/h3-official-reference/MiniMax-H3-official-samples.zip)，79 个视频，原始总大小 712.6 MB，压缩包 750.9 MB；文件清单见 `reference/MiniMax-H3-official/samples/MANIFEST.md`。
 - **H3 Prompt Skill**：`skills/h3-prompt-writing/`，包含 `SKILL.md`、基础模式和 Ref2VA 参考指南。
 - **官方文档入口**：[视频生成指南](https://platform.minimax.io/docs/guides/video-generation)、[创建视频任务 API](https://platform.minimax.io/docs/api-reference/video-generation-v2-create)、[H3-Context-IR API](https://platform.minimax.io/docs/api-reference/video-generation-v2-h3-context-ir)、[H3 再生成 API](https://platform.minimax.io/docs/api-reference/video-generation-v2-regeneration)。
 
-手册和资料库是本地学习/研究存档，版权归原发布方；公开分发前请自行确认授权。
+手册和示例视频通过 GitHub Release 分发，不进入 Git LFS 或仓库历史。它们和资料库都是本地学习/研究存档，版权归原发布方；公开分发前请自行确认授权。
 
 ## 整合的 Skill
 
@@ -150,7 +151,8 @@ cd minimaxH3-ai-video-agent
 
 ## 目录
 
-- `docs/`：模型接入约定、H3 使用手册、H3 资料库和官方能力卡。
+- `reference/`：MiniMax H3 官方参考资料索引，手册和示例视频通过 Release 下载。
+- `docs/`：模型接入约定、H3 资料库和官方能力卡。
 - `skills/`：`h3-prompt-writing` Skill 文件。
 - `demo/`：无剪辑直接合成版和人工剪辑版两段展示片段。
 - `.gitignore`：媒体、配置和输出文件的忽略规则。
@@ -160,14 +162,18 @@ cd minimaxH3-ai-video-agent
 
 - 仓库不包含源文本、剧集剧本、分镜、角色/场景资产、生成结果或费用记录。
 - 唯一保留的媒体是 `demo/direct_synthesis_demo.mp4` 和 `demo/human_edited_demo.mp4`，仅用于展示工作流。
-- H3 手册、资料库和 Skill 文件是本地学习/研究存档；版权与再分发条件以原发布方为准。
+- H3 手册、示例视频、资料库和 Skill 文件是本地学习/研究存档；版权与再分发条件以原发布方为准。
 - 示例片段中的角色、场景和画面不构成对任何第三方作品的授权或权利主张。
 - 使用者应自行确认输入文本、参考素材、生成内容和音乐的权利，不得将示例片段用于商业用途或再分发。
 - 技术通过不等于创作验收；视觉、节奏、表演和声音仍需实际观看确认。
 
+## 支持项目
+
+如果这个项目对你有帮助，欢迎点一个 Star。Star 不会解锁额外内容，也不会改变下载权限。
+
 ## 开发
 
-本仓库保存通用说明、H3 资料、接入约定、Skill 和展示片段。视频、图片、音频、接口配置、请求 JSON 和生成依赖不进入普通 Git 历史；需要入库的媒体使用 Git LFS 单独配置。
+本仓库保存通用说明、H3 资料索引、接入约定、Skill 和展示片段。展示视频使用 Git LFS；官方手册和示例视频通过 GitHub Release 分发，不进入 Git LFS 或仓库历史。
 
 提交前检查：
 
