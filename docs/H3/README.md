@@ -4,6 +4,8 @@
 
 > **官方使用手册原文**：[MiniMax H3 官方使用手册（飞书原文）](https://vrfi1sk8a0.feishu.cn/wiki/FIWjwgL33ipnkekzk30crmKUnIh)
 
+资料库保留原始项目内链；部分链接指向不随仓库附带的 XJXZ 生产文件或原始素材，GitHub 上可能无法打开。以正文结论和官方文档为准。
+
 ## 使用手册
 
 - 入口：`manual/README.md`
