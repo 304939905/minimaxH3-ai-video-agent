@@ -2,6 +2,8 @@
 
 本目录汇总 MiniMax H3 的本地手册、模型资料和提示词 Skill。
 
+> **官方使用手册原文**：[MiniMax H3 官方使用手册（飞书原文）](https://vrfi1sk8a0.feishu.cn/wiki/FIWjwgL33ipnkekzk30crmKUnIh)
+
 ## 使用手册
 
 - 文件：`manual/MiniMax-H3-user-manual.docx`

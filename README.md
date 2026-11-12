@@ -107,6 +107,8 @@ cd minimaxH3-ai-video-agent
 
 ## H3 资料与 Skill
 
+> **官方使用手册原文**：[MiniMax H3 官方使用手册（飞书原文）](https://vrfi1sk8a0.feishu.cn/wiki/FIWjwgL33ipnkekzk30crmKUnIh)
+
 - **官方使用手册**：`docs/H3/manual/MiniMax-H3-user-manual.docx`，419 MB，Git LFS 存储。SHA-256：`7B34D58BE939E264B57BF2D9419C4D6E9B5257D1CE07780E614645321B6E4E01`。
 - **H3 资料库**：`docs/H3/library/`，20 个文本文件，包含模型定位、官方资料核验、提示词框架、模式选择、案例库和验证日志。
 - **官方能力卡**：`docs/H3/research/2026-08-06_minimax-h3_official-capability-card.md`。
