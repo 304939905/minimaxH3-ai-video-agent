@@ -1,0 +1,34 @@
+# MiniMax H3 资料与 Skill
+
+本目录汇总 MiniMax H3 的本地手册、模型资料和提示词 Skill。
+
+## 使用手册
+
+- 文件：`manual/MiniMax-H3-user-manual.docx`
+- 大小：419 MB
+- Git LFS：是
+- SHA-256：`7B34D58BE939E264B57BF2D9419C4D6E9B5257D1CE07780E614645321B6E4E01`
+
+这是本地学习/研究存档。手册版权归原发布方；公开分发前请自行确认授权。
+
+## 资料库
+
+- 入口：`library/README.md`
+- 内容：模型定位与规格、官方资料核验、提示词框架、模式选择、案例库、素材映射和验证日志。
+- 说明：资料库是项目整理，不等同官方文档；官方来源以 `library/01-模型基础/官方资料核验.md` 为准。
+
+## 官方能力卡
+
+- `research/2026-08-06_minimax-h3_official-capability-card.md`
+
+## 官方文档
+
+- [视频生成指南](https://platform.minimax.io/docs/guides/video-generation)
+- [创建视频任务 API](https://platform.minimax.io/docs/api-reference/video-generation-v2-create)
+- [H3-Context-IR API](https://platform.minimax.io/docs/api-reference/video-generation-v2-h3-context-ir)
+- [H3 再生成 API](https://platform.minimax.io/docs/api-reference/video-generation-v2-regeneration)
+
+## Skill
+
+- `../../skills/h3-prompt-writing/SKILL.md`
+- 来源与授权说明：`../../skills/h3-prompt-writing/SOURCE.md`

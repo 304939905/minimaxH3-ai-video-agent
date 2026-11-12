@@ -105,9 +105,19 @@ cd minimaxH3-ai-video-agent
 
 保存任务 ID、模型、渠道、提示词、输入素材、参数、费用依据、输出路径、文件哈希和审片状态。生成成功只证明任务完成；是否采用仍由实际观看和项目验收决定。
 
+## H3 资料与 Skill
+
+- **官方使用手册**：`docs/H3/manual/MiniMax-H3-user-manual.docx`，419 MB，Git LFS 存储。SHA-256：`7B34D58BE939E264B57BF2D9419C4D6E9B5257D1CE07780E614645321B6E4E01`。
+- **H3 资料库**：`docs/H3/library/`，20 个文本文件，包含模型定位、官方资料核验、提示词框架、模式选择、案例库和验证日志。
+- **官方能力卡**：`docs/H3/research/2026-08-06_minimax-h3_official-capability-card.md`。
+- **H3 Prompt Skill**：`skills/h3-prompt-writing/`，包含 `SKILL.md`、基础模式和 Ref2VA 参考指南。
+- **官方文档入口**：[视频生成指南](https://platform.minimax.io/docs/guides/video-generation)、[创建视频任务 API](https://platform.minimax.io/docs/api-reference/video-generation-v2-create)、[H3-Context-IR API](https://platform.minimax.io/docs/api-reference/video-generation-v2-h3-context-ir)、[H3 再生成 API](https://platform.minimax.io/docs/api-reference/video-generation-v2-regeneration)。
+
+手册和资料库是本地学习/研究存档，版权归原发布方；公开分发前请自行确认授权。
+
 ## 整合的 Skill
 
-主产线用导演、Grok 和 H3 三个专项 Skill 覆盖正式制作；实验产线用五件套覆盖从大纲到分镜的另一套完整方法。仓库不复制第三方 Skill 源文件，项目侧保留使用规则、产出和审计记录。
+主产线用导演、Grok 和 H3 三个专项 Skill 覆盖正式制作；实验产线用五件套覆盖从大纲到分镜的另一套完整方法。`h3-prompt-writing` 已随仓库放在 `skills/h3-prompt-writing/`；其余 Skill 不在仓库内，需要自行安装。
 
 | Skill | 在项目中的角色 | 主要产出 | 所属产线 |
 | --- | --- | --- | --- |
@@ -138,7 +148,8 @@ cd minimaxH3-ai-video-agent
 
 ## 目录
 
-- `docs/`：模型接入约定。
+- `docs/`：模型接入约定、H3 使用手册、H3 资料库和官方能力卡。
+- `skills/`：`h3-prompt-writing` Skill 文件。
 - `demo/`：无剪辑直接合成版和人工剪辑版两段展示片段。
 - `.gitignore`：媒体、配置和输出文件的忽略规则。
 - `.gitattributes`：展示片段的 Git LFS 规则。
@@ -147,13 +158,14 @@ cd minimaxH3-ai-video-agent
 
 - 仓库不包含源文本、剧集剧本、分镜、角色/场景资产、生成结果或费用记录。
 - 唯一保留的媒体是 `demo/direct_synthesis_demo.mp4` 和 `demo/human_edited_demo.mp4`，仅用于展示工作流。
+- H3 手册、资料库和 Skill 文件是本地学习/研究存档；版权与再分发条件以原发布方为准。
 - 示例片段中的角色、场景和画面不构成对任何第三方作品的授权或权利主张。
 - 使用者应自行确认输入文本、参考素材、生成内容和音乐的权利，不得将示例片段用于商业用途或再分发。
 - 技术通过不等于创作验收；视觉、节奏、表演和声音仍需实际观看确认。
 
 ## 开发
 
-本仓库只保存通用说明、接入约定和展示片段。视频、图片、音频、接口配置、请求 JSON 和生成依赖不进入普通 Git 历史；需要入库的媒体使用 Git LFS 单独配置。
+本仓库保存通用说明、H3 资料、接入约定、Skill 和展示片段。视频、图片、音频、接口配置、请求 JSON 和生成依赖不进入普通 Git 历史；需要入库的媒体使用 Git LFS 单独配置。
 
 提交前检查：
 

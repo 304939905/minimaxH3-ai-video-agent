@@ -1,1 +1,2 @@
 demo/*.mp4 filter=lfs diff=lfs merge=lfs -text
+docs/H3/manual/*.docx filter=lfs diff=lfs merge=lfs -text
