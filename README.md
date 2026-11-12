@@ -48,7 +48,7 @@ novel-outline
 
 ### 无剪辑直接合成版
 
-[查看无剪辑直接合成版](demo/direct_synthesis_demo.mp4)
+[下载无剪辑直接合成版](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/demo-videos/MiniMax-H3-demo-direct-synthesis.mp4)
 
 - 2 分 25 秒，1920×1080、24fps、H.264/AAC。
 - 按分镜顺序直接合成，未做人工精剪。
@@ -58,19 +58,14 @@ novel-outline
 
 ### 人工剪辑版
 
-[查看人工剪辑版](demo/human_edited_demo.mp4)
+[下载人工剪辑版](https://github.com/304939905/minimaxH3-ai-video-agent/releases/download/demo-videos/MiniMax-H3-demo-human-edited.mp4)
 
 - 58.8 秒，1290×720、30fps、H.264/AAC。
 - 在合成素材基础上进行人工剪辑处理，用于展示剪辑后的节奏和观感。
 - 这是人工剪辑版产物，不代表模型直接生成结果。
 - 仅用于展示工作流，不代表模型稳定具备同等能力。
 
-两段视频均使用 Git LFS 存储。克隆后如未自动拉取，执行：
-
-```powershell
-git lfs install
-git lfs pull
-```
+两段视频通过 GitHub Release 分发，不进入仓库历史；也可以从 [Release 页面](https://github.com/304939905/minimaxH3-ai-video-agent/releases/tag/demo-videos) 下载。
 
 ## 使用方法
 
@@ -85,7 +80,7 @@ git clone https://github.com/304939905/minimaxH3-ai-video-agent.git
 cd minimaxH3-ai-video-agent
 ```
 
-环境建议：Windows 10/11、PowerShell、Git + Git LFS、Python 3.12、Node.js 20+（五 Skill 套件脚本，已在 v24.18.0 验证）、FFmpeg（剪辑、抽帧、转码时使用）。
+环境建议：Windows 10/11、PowerShell、Git、Python 3.12、Node.js 20+（五 Skill 套件脚本，已在 v24.18.0 验证）、FFmpeg（剪辑、抽帧、转码时使用）。
 
 ### 2. 接入模型
 
@@ -154,14 +149,13 @@ cd minimaxH3-ai-video-agent
 - `reference/`：MiniMax H3 官方参考资料索引，手册和示例视频通过 Release 下载。
 - `docs/`：模型接入约定、H3 资料库和官方能力卡。
 - `skills/`：`h3-prompt-writing` Skill 文件。
-- `demo/`：无剪辑直接合成版和人工剪辑版两段展示片段。
+- `demo/`：两段展示片段的说明和 Release 下载链接。
 - `.gitignore`：媒体、配置和输出文件的忽略规则。
-- `.gitattributes`：展示片段的 Git LFS 规则。
 
 ## 边界
 
 - 仓库不包含源文本、剧集剧本、分镜、角色/场景资产、生成结果或费用记录。
-- 唯一保留的媒体是 `demo/direct_synthesis_demo.mp4` 和 `demo/human_edited_demo.mp4`，仅用于展示工作流。
+- 仓库不保存视频文件；两段展示视频通过 Release 分发，仅用于展示工作流。
 - H3 手册、示例视频、资料库和 Skill 文件是本地学习/研究存档；版权与再分发条件以原发布方为准。
 - 示例片段中的角色、场景和画面不构成对任何第三方作品的授权或权利主张。
 - 使用者应自行确认输入文本、参考素材、生成内容和音乐的权利，不得将示例片段用于商业用途或再分发。
@@ -173,7 +167,7 @@ cd minimaxH3-ai-video-agent
 
 ## 开发
 
-本仓库保存通用说明、H3 资料索引、接入约定、Skill 和展示片段。展示视频使用 Git LFS；官方手册和示例视频通过 GitHub Release 分发，不进入 Git LFS 或仓库历史。
+本仓库为纯文本仓库，保存通用说明、H3 资料索引、接入约定和 Skill。展示视频、官方手册和官方示例视频都通过 GitHub Release 分发，不进入仓库历史。
 
 提交前检查：
 
