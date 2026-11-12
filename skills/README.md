@@ -24,7 +24,7 @@
 
 ## 未随仓库附带的全局 Skill
 
-本机 Codex 环境还安装了 `hyperframes`、`media-use`、`duomi-image`、`video-shotcraft` 等通用 Skill，但它们不属于本项目当前集成清单，也不自动成为项目依赖。需要时请按各自来源单独安装和核验授权。
+本机 Codex 环境还安装了 `hyperframes`、`media-use`、`video-shotcraft` 等通用 Skill，但它们不属于本项目当前集成清单，也不自动成为项目依赖。需要时请按各自来源单独安装和核验授权。
 
 ## 分发边界
 
